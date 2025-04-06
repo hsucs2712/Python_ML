@@ -1,0 +1,15 @@
+python               : Python 3.7.5 https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe
+tensorflow-gpu 2.0.0 : pip install tensorflow-gpu==2.0.0
+keras                : pip install keras==2.3.1
+CUDA                 : 10.0 https://developer.nvidia.com/cuda-10.0-download-archive
+CUDNN                : https://developer.nvidia.com/compute/machine-learning/cudnn/secure/7.6.3.30/Production/10.0_20190822/cudnn-10.0-windows10-x64-v7.6.3.30.zip
+
+--problem--
+InternalError: cudaGetDevice() failed. Status: CUDA driver version is insufficient for CUDA runtime version
+
+--solution--
+update GPU driver of notebook to newest version.
+
+
+--ref
+https://medium.com/@teavanist/install-tensorflow-gpu-on-windows-10-5a23c46bdbc7

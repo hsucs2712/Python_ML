@@ -1,0 +1,47 @@
+*****如果你沒有聲音 可以電腦+手機撥入*****
+--URL 
+--https://drive.google.com/drive/folders/1wlc46SHLLQWgyImp_l10hfT97fkUPInR?usp=sharing
+介紹學習環境
+-------------------
+語言 Python 3.7|3.8
+-------------------
+API  Keras - TF
+框架 Tensorflow 2.*
+-------------------
+--CUDA(NVIDIA)
+--CUDNN(NVIDIA)
+-------------------
+--OS Windows Linux-
+--GPU NVIDIA    ---
+-------------------
+
+
+--檢查PYTHON 安裝套件
+1....................
+c:\python>python
+Python 3.8.8 (tags/v3.8.8:024d805, Feb 19 2021, 13:18:16) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> sys.executable
+'C:\\python38\\python.exe'
+>>> exit()
+
+2....................
+pip list
+pip uninstall tensorflow
+
+3. NN
+http://www.asimovinstitute.org/neural-network-zoo/
+
+https://www.youtube.com/watch?v=3JQ3hYko51Y&feature=youtu.be
+
+
+4.install tensorflow
+c:\python>pip install tensorflow==0
+ERROR: Could not find a version that satisfies the requirement tensorflow==0 (from versions: 2.2.0rc1, 2.2.0rc2, 2.2.0rc3, 2.2.0rc4, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.3.0rc0, 2.3.0rc1, 2.3.0rc2, 2.3.0, 2.3.1, 2.3.2, 2.3.3, 2.3.4, 2.4.0rc0, 2.4.0rc1, 2.4.0rc2, 2.4.0rc3, 2.4.0rc4, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 2.5.0rc0, 2.5.0rc1, 2.5.0rc2, 2.5.0rc3, 2.5.0, 2.5.1, 2.6.0rc0, 2.6.0rc1, 2.6.0rc2, 2.6.0)
+ERROR: No matching distribution found for tensorflow==0
+WARNING: You are using pip version 20.2.3; however, version 21.2.4 is available.
+You should consider upgrading via the 'c:\python38\python.exe -m pip install --upgrade pip' command.
+
+
+5.安裝Keras API
